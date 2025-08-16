@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Big Pancake Game</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      color: #333;
-    }
-    .game-info {
-      margin-top: 20px;
-    }
-    .game-info h2 {
-      color: #4CAF50;
-    }
-    .game-info p {
-      font-size: 18px;
-    }
-    .download-btn {
-      background-color: #007bff;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 16px;
-    }
-    .download-btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
-<body>
-  <h1>Welcome to Big Pancake Game</h1>
-  <div class="game-info">
-    <h2>About the Game</h2>
-    <p>Big Pancake Game is a fun and addictive mobile game where you stack pancakes to build the tallest tower! The higher you stack, the harder it gets. Can you reach the top?</p>
-  </div>
-
-  <div class="game-info">
-    <h2>Download the Game</h2>
-    <p>Click the link below to download the game:</p>
-    <a href="https://play.google.com/store/apps/details?id=com.yourcompany.bigpancakegame" class="download-btn" target="_blank">Download on Google Play</a>
-  </div>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Pinegrow - TailwindCSS Blocks Template</title>
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+        <link rel="stylesheet" href="../../pgia/components/controls.css">
+        <link rel="stylesheet" href="../../pgia/components/slider.css">
+        <meta name="description" content="Pinegrow Web Editor - Directory TailwindCSS Template">
+    </head>
+    <body class="text-gray-500">
+        <header class="bg-opacity-60 bg-white border-b fixed inset-x-0 top-0 w-full z-50"> 
+            <nav class="container flex flex-wrap font-bold items-center mx-auto px-4 py-2 lg:py-0">                 BigPancakeGame
+                <div class="flex flex-row items-center ml-auto px-2 space-x-2 lg:order-2">
+</div>
+                <button class="bg-gray-700 hover:bg-gray-900 hover:text-white px-3 py-2 rounded text-white lg:hidden" data-name="nav-toggler" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;NabMenuToggler&quot;,&quot;trg&quot;:&quot;click&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^nav|[data-name=nav-menu]&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;class.remove&quot;:&quot;hidden&quot;}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(1)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;rotationZ&quot;:45,&quot;yPercent&quot;:300}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(2)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;autoAlpha&quot;:0}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(3)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;rotationZ&quot;:-45,&quot;yPercent&quot;:-300}}]}]},&quot;pdef&quot;:&quot;true&quot;,&quot;trev&quot;:&quot;true&quot;}]}"> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
+                </button>
+                <div data-name="nav-menu" class="flex-grow hidden lg:flex lg:items-center lg:w-auto w-full"> 
+                    <div class="flex flex-col lg:flex-row"> 
+                        <div class="relative">
+                            <div class="bg-white border hidden left-0 min-w-max py-2 rounded-bl rounded-br shadow top-full z-20 lg:absolute"><a href="#" class="block hover:bg-gray-100 hover:text-gray-700 px-4 py-1 text-gray-900">Listing 1: Grid Listing</a><a class="block hover:bg-gray-100 hover:text-gray-700 px-4 py-1 text-gray-900" href="#">Listing 2: Vertical Listing</a><a class="block hover:bg-gray-100 hover:text-gray-700 px-4 py-1 text-gray-900" href="#">Listing 3: Full width + Map on the side</a>
+                                <hr class="my-2"><a class="block hover:bg-gray-100 hover:text-gray-700 px-4 py-1 text-gray-900" href="#">Details 1: Reponsive Style 1</a><a class="block hover:bg-gray-100 hover:text-gray-700 px-4 py-1 text-gray-900" href="#">Details 2: Reponsive Style 2</a><a class="block hover:bg-gray-100 hover:text-gray-700 px-4 py-1 text-gray-900" href="#">Details 3: Reponsive Style 1 Alt</a>
+                                <hr class="my-2"><a class="block hover:bg-gray-100 hover:text-gray-700 px-4 py-1 text-gray-900" href="#">Sample Page</a>
+                            </div>
+                        </div>                         
+                    </div>
+                    <div class="flex flex-col ml-auto lg:flex-row"> 
+</div>                     <a href="indexAsset/tilecountrylife_1.html" class="block hover:text-gray-700 px-0 py-2 text-gray-900 lg:px-4 lg:py-6" role="button" data-name="nav-dropdown-trigger" data-pg-ia="{&quot;l&quot;:[{&quot;trg&quot;:&quot;click&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^div|div&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;display&quot;:&quot;block&quot;}}]}]},&quot;pdef&quot;:&quot;true&quot;,&quot;trev&quot;:&quot;true&quot;,&quot;name&quot;:&quot;NavDropdownTrigger&quot;}]}"> <span>TileCountryLife</span></a>
+                    <a href="indexAsset/tilecatlife_1.html" class="block hover:text-gray-700 px-0 py-2 text-gray-900 lg:px-4 lg:py-6" role="button" data-name="nav-dropdown-trigger" data-pg-ia="{&quot;l&quot;:[{&quot;trg&quot;:&quot;click&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^div|div&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;display&quot;:&quot;block&quot;}}]}]},&quot;pdef&quot;:&quot;true&quot;,&quot;trev&quot;:&quot;true&quot;,&quot;name&quot;:&quot;NavDropdownTrigger&quot;}]}"> <span>TileCatLife</span></a>
+                </div>
+            </nav>             
+        </header>
+        <section class="-mt-72 h-96 relative">
+</section>
+        <section class="py-12"> 
+            <div class="container mx-auto px-4"> 
+                <div class="flex flex-wrap -mx-4  justify-center"> 
+                    <div class="p-4 w-full md:w-6/12 xl:w-3/12"> 
+                        <div class="bg-white border"> <a href="indexAsset/tilecountrylife_1.html" class="block hover:opacity-75"><img src="indexAsset/Image/tile1_banner_01.png" class="w-full" alt="Location image" width="350" height="240"></a> 
+                            <div class="pb-4 pt-6 px-6 text-center"> <a href="indexAsset/tilecountrylife_1.html" class="bg-primary-500 inline-block px-6 py-2 rounded-full text-gray-900 hover:bg-primary-600" target="_top">View</a> 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full md:w-6/12 xl:w-3/12"> 
+                        <div class="bg-white border"> <a href="indexAsset/tilecatlife_1.html" class="block hover:opacity-75" target="_top"><img src="indexAsset/Image/TileCatLifeBanner_01.png" class="w-full" alt="Location image" width="350" height="240"></a> 
+                            <div class="pb-4 pt-6 px-6 text-center"><a href="indexAsset/tilecatlife_1.html" class="bg-primary-500 inline-block px-6 py-2 rounded-full text-gray-900 hover:bg-primary-600">View</a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>             
+        </section>
+    </body>
 </html>
