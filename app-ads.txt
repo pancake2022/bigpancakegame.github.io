@@ -1,3 +1,3 @@
 google.com, pub-4260535784424163, DIRECT, f08c47fec0942fa0
-unityads.unity3d.com, 12370099333543, DIRECT
-ironsrc.com, 274003, DIRECT
+unityads.unity3d.com, 12370099333543, DIRECT, 96cabb5fbdde37a7
+ironsrc.com, 274003, DIRECT, aeb9f231ee2c0605
